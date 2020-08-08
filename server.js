@@ -18,28 +18,6 @@ const db = knex({
 
 const app = express();
 
-
-const database = {
-    users: [
-        {
-            id: '123',
-            name: 'john',
-            email: 'john@gmail.com',
-            password: 'cookies',
-            entries: 0,
-            joined: new Date()
-       },
-       {
-        id: '124',
-        name: 'sally',
-        email: 'sally@gmail.com',
-        password: 'bananas',
-        entries: 0,
-        joined: new Date()
-      }
-    ]
-}
-
 app.use(bodyParser.json());
 app.use(cors());
 
