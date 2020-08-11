@@ -19,12 +19,6 @@ const db = knex({
       rejectUnauthorized: false,
       },
       }});
-  //   connection: {
-  //     connectionString : process.env.DATABASE_URL,
-  //     ssl: true,
-  //   }
-  // });
-  
 
 const app = express();
 
